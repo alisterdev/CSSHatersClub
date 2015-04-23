@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register | CSS Haters Club</title>
+</head>
+<body bgcolor="#0070e0">		
+	<font color="white" face="Helvetica Neue, Arial">		
+		<table align="center" width="60%">
+			<tr>		
+				<td align="center">
+					<a href="./index.html" align="center">
+						<img src="./images/logo.png" alt="CSS Haters Club Logo"/>
+					</a>
+					<hr size="5px" color="#fff">
+				</td>
+			</tr>
+			<tr>		
+				<td>									
+					<h2 align="center">Join CSS Haters Club</h2>						
+					<p align="center">Please fill the form below in order to join out club!</p>						
+				</td>
+			</tr>
+		</table>	
+
+		<div class="register">
+			<form action="./cgi-bin/Registration.pl" method="POST">
+				<table align="center">
+					<tr>
+						<td colspan="2">
+							All fields are required. All spaces will be ignored.<br/>
+							<br/>							
+						</td>
+					</tr>
+					<tr>
+						<td>Name:</td>
+						<td><input type="text" name="name" required></td>
+					</tr>
+					<tr>
+						<td>Username:</td>
+						<td><input type="text" name="username" required></td>
+					</tr>
+					<tr>
+						<td>Password:</td>
+						<td><input type="password" name="password" required></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Register"> or 
+							<a href="index.html"><font color="#fff">go to main</font></a>
+						</td>				
+					</tr>					
+				</table>
+			</form>
+		</div>	
+
+		<div class="footer">
+			<hr width="60%" size="3px" color="#fff">
+			<font size="2"><p align="center">&copy; Copyright 2015 - Alex Ilea - Team CSS Haters</p></font>
+		</div>
+	</font>
+</body>
+</html>
